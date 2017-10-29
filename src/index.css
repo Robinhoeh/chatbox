@@ -11,10 +11,66 @@ body {
   font-family: 'Helvetica Neue', Arial, sans-serif;
   margin: 20px;
 }
+ol{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+ul li{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
 
 main{
 	background: lightseagreen;
 	margin: 20px auto;
 	max-width: 450px;
 	padding: 20px;
+	border-radius: 10px;
+}
+
+form{
+	background: mediumspringgreen;
+  padding: 12px 0;
+	border-radius: 5px;
+}
+
+ol li:nth-child(odd){
+	margin-bottom: 10px;
+	background: lightgrey;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+ol li:nth-child(even){
+	margin-bottom: 10px;
+	background: aliceblue;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+
+input, button{
+	border: none;
+	padding: 5px;
+}
+
+button{
+	background: deepskyblue;
+	color: white;
+}
+
+#initials{
+	width: 9%;
+	margin-left: 7px;
+}
+
+#message{
+	width: 73%;
+}
+
+#initials, #message, button{
+	border-radius: 5px;
 }

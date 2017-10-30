@@ -42,13 +42,17 @@ ol li:nth-child(odd){
 	background: lightgrey;
 	border-radius: 5px;
 	padding: 5px;
+	width: 96%;
+	margin-right: 4%;
 }
 
 ol li:nth-child(even){
 	margin-bottom: 10px;
-	background: aliceblue;
+	background: lightskyblue;
 	border-radius: 5px;
 	padding: 5px;
+	width: 96%;
+	margin-left: 4%;
 }
 
 

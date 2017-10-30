@@ -15,5 +15,17 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom"
+  },
+  "description": "## Today's goal is to get acquainted with JavaScript-based web programming by creating a simple chat application.  ## We'll use modern tools (Node.js, Web Sockets, etc.) and touch upon many different technologies.",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robinhoeh/chatbox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Robinhoeh/chatbox/issues"
   }
 }
